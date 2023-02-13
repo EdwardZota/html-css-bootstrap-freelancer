@@ -10,7 +10,13 @@
     border: 2px black dashed;
 }
 
+.debug .box{
+    background-color: aqua;
+}
 
+.debug section{
+    height: 200px;
+}
 
 
 /* css*/
@@ -27,3 +33,6 @@
     max-width: 800px;
 }
 
+#ms-top-main{
+    background-color: var(--bg-color);
+}
