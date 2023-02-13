@@ -19,9 +19,11 @@
     background-color: var(--nav--b-footer);
 }
 
-nav{
-    position: fixed;
-    top: 0
-    ;
+.ms_text-white{
+    color: white;
+}
+
+.ms_lg{
+    max-width: 800px;
 }
 
