@@ -33,6 +33,6 @@
     max-width: 800px;
 }
 
-#ms-top-main,#about{
+#ms-top-main,#ms-about{
     background-color: var(--bg-color);
 }
