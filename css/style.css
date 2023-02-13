@@ -36,3 +36,7 @@
 #ms-top-main,#ms-about{
     background-color: var(--bg-color);
 }
+
+#ms-location{
+    background-color: var(--footer);
+}
