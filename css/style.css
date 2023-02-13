@@ -21,7 +21,7 @@
 
 /* css*/
 
-.ms_nav{
+.ms_nav,#ms-footer-bottom{
     background-color: var(--nav--b-footer);
 }
 
