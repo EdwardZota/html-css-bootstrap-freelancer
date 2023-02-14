@@ -14,10 +14,6 @@
     background-color: aqua;
 }
 
-.debug section{
-    height: 200px;
-}
-
 
 /* css*/
 header{
@@ -42,4 +38,21 @@ header{
 
 #ms-location{
     background-color: var(--footer);
+}
+
+.ms_bar{
+    height: 4px;
+    width: 62px;
+    position: relative;
+    display: inline-block;
+}
+
+.ms_bar.ms_left{
+    top: -8px;
+    right: 0;
+}
+
+.ms_bar.ms_right{
+    top: -8px;
+    left: 0;
 }
