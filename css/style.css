@@ -3,18 +3,14 @@
     --bg-color:#1abc9c;
     --footer:#3a546d;
 }
-
-/*debug*/
-
-.debug .ms_border{
-    border: 2px black dashed;
-}
-
-.debug .box{
-    background-color: aqua;
+html{
+    scroll-behavior: smooth;
 }
 
 
+section{
+    scroll-margin-top: 70px;
+}
 /* css*/
 
 ::placeholder {
@@ -41,6 +37,10 @@ header{
 
 #ms-top-main,#ms-about,.ms_btn_color{
     background-color: var(--bg-color);
+}
+
+.ms_btn_color{
+    border: none;
 }
 
 #ms-location{
