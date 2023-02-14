@@ -47,6 +47,10 @@ header{
     background-color: var(--footer);
 }
 
+.ms_text_color{
+    color: var(--bg-color);
+}
+
 .ms_bar{
     height: 4px;
     width: 62px;
