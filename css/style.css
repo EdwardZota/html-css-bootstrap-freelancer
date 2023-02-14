@@ -16,6 +16,13 @@
 
 
 /* css*/
+
+::placeholder {
+    color: var(--nav--b-footer);
+    font-weight:500;
+}
+
+
 header{
     height: 72px;
 }
@@ -32,7 +39,7 @@ header{
     max-width: 800px;
 }
 
-#ms-top-main,#ms-about{
+#ms-top-main,#ms-about,.ms_btn_color{
     background-color: var(--bg-color);
 }
 
@@ -48,11 +55,11 @@ header{
 }
 
 .ms_bar.ms_left{
-    top: -8px;
+    top: -7px;
     right: 0;
 }
 
 .ms_bar.ms_right{
-    top: -8px;
+    top: -7px;
     left: 0;
 }
